@@ -1,0 +1,311 @@
+h1,
+h2,
+h3,
+p {
+    margin-top:0;
+    margin-bottom:0;}
+
+ul,
+ol {
+    margin-top:0;
+    margin-bottom:0;
+    padding-left:0;}
+
+img {
+    display:block;}
+
+
+.container {
+    max-width:1158px;
+    padding-left: 15px;
+    padding-right:15px;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+body {font-family:"Roboto", sans-serif; 
+    color: #434455; 
+    font-size: 16px; 
+    font-weight: 500;
+    line-height: 1.5;
+    background-color: #FFF;}
+
+.list {list-style-type: none;}
+.navigation {list-style-type:none;}
+
+.header {border-bottom: 1px solid #e7e9fc; gap: 40px;}
+
+.page-header-container {
+    display:flex; 
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px; 
+}
+.main-logo {margin-right: 76px; gap: 40px;}
+
+.header-line {
+    display:flex;
+    align-items:center;
+    }
+
+.page-header-list {
+    display: flex; 
+}
+
+.menu {display: flex; 
+    gap: 40px;}
+
+.menu:not(:last-child) {margin-right: 40px;}
+
+
+.navigation, .nav-contacts {display: flex;
+    gap: 40px;
+    }
+
+
+.top-nav-list {display: flex;
+    gap: 40px;
+    padding-top:24px; 
+    padding-bottom:24px;}  
+
+.main-logo {color: #4d5ae5;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration:none;}
+
+span {color: #2e2f42;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+gap:40px;}
+
+.top-nav-list {color: #2E2F42;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+text-decoration: none;}
+
+.top-nav-list:hover, .top-nav-list:focus {color:#404BBF;}   
+.nav-contacts {
+    font-style: normal; 
+    text-decoration: none;}
+
+.contacts {
+    color:#434455; 
+    letter-spacing: 0.02em;
+text-decoration: none;}
+
+.contacts:hover, 
+.contacts:focus {
+    color: #404BBF;}
+
+.title {color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+
+.title {
+    max-width:496px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:48px;
+
+}
+
+.starting-page {
+    background-color: #2E2F42;
+    padding: 188px 0;
+    }
+
+.click-order {color: #FFF;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background-color: #4D5AE5;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    cursor: pointer;} 
+
+.click-order{
+    display:block;
+    min-width: 169px;
+    height: 56px;
+    border:none;
+    padding: 16px 32px;
+    border-radius:4px;
+    margin-right:auto;
+    margin-left:auto;}
+
+.click-order:hover, 
+.click-order:focus {; 
+    cursor:pointer;
+    background-color: #404BBF; 
+    text-decoration: none;
+    border:none;
+    }
+
+
+.second-title {color: #2E2F42;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 0.02em;
+    background-color: #FFF;
+    }
+    
+.visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+    }
+
+.section {
+    padding-top:120px;
+    padding-bottom:120px;
+}
+
+  
+.list {
+    display:flex; 
+    width: calc((100%-72px)/4);
+    gap: 24px
+}
+
+.values-card {
+    width: calc((100% - 72px) / 4);}
+    
+.values-names {margin-bottom:8px;}
+
+.second-title-second, .second-title {margin-bottom:72px;}
+
+.our-team-cards {
+    
+    border-radius: 0px 0px 4px 4px;
+    width: calc((100% - 72px) / 4);
+}
+
+.team-mem-pos {padding: 32px 0;}
+
+.team-members {
+    text-align:center;
+    margin-bottom: 8px;}
+
+.teammember-position {text-align: center;}
+
+
+.portfolio {
+    flex-wrap: wrap;
+    row-gap: 48px;
+}
+
+.portfolio-card {
+    width: calc((100% - 48px) / 3);
+    }   
+
+.thumb {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;}
+
+.portfolio-list {
+    margin-bottom: 8px;}
+
+.values-names, .team-members, .portfolio-list {color: #2E2F42;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;}
+
+.about-values, .teammember-position, .portfolio-list-description {
+    color: #434455;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+    }
+
+.portfolio-list-description {letter-spacing: 0.02em;}
+.about-us {background: #F4F4FD;}
+.second-title-second {
+        color: #2E2F42;
+        font-family: Roboto;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.11;
+        text-align: center;
+        text-transform: capitalize;
+        letter-spacing: 0.02em;
+        background-color: #F4F4FD;
+    }
+
+.our-team-cards {background: #FFF;}
+
+
+.page-end {
+    background-color: #2E2F42;
+    padding: 100px 0;}
+
+.end-text {color: #F4F4FD;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;}
+    
+.end-logo {color:#4d5ae5;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+display: inline-block;
+margin-bottom: 16px;}
+
+.end-logo-studio-world {color:#f4f4fd;
+}
+
+
+.end-text {
+    width:264px;
+}
+
+
