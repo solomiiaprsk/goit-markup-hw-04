@@ -99,7 +99,7 @@ box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
     font-style: normal;
     font-weight: 700;
     line-height: 1.17;
-    letter-spacing: 0.03em;
+    letter-spacing:0.03em;
     text-transform: uppercase;
     text-decoration:none;}
 
@@ -109,7 +109,7 @@ span {color: #2e2f42;
     font-style: normal;
     font-weight: 700;
     line-height: 1.17;
-    letter-spacing: 0.03em;
+    letter-spacing:0.03em;
     text-transform: uppercase;
     text-decoration: none;
 gap:40px;}
@@ -399,7 +399,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) }
     font-style: normal;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.02em;}
+    letter-spacing:0.02em;}
 
 .about-values, .teammember-position, .portfolio-list-description {
     color: #434455;
@@ -407,7 +407,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) }
         font-size: 16px;
         font-weight: 400;
         line-height: 1.5;
-        letter-spacing: 0.02em;
+        letter-spacing:0.02em;
     }
 
 .portfolio-list-description {letter-spacing: 0.02em;}
@@ -450,7 +450,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) }
     font-style: normal;
     font-weight: 700;
     line-height: 1.17;
-    letter-spacing: 0.03em;
+    letter-spacing:0.03em;
     text-transform: uppercase;
     text-decoration: none;
 display: inline-block;
