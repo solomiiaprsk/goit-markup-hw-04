@@ -63,6 +63,9 @@ box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
 
 .menu:first-child {color:#404bbf;}
 
+.top-nav-list:first-child .studio {color:#404bbf;}
+
+
 .studio {color:#404bbf;
     transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -347,11 +350,13 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) }
 
 .portfolio-card {
     width: calc((100% - 48px) / 3);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }   
 
 .image-for-overlay {
     position:relative;
     overflow:hidden;}
+
 
 .overlay {position:absolute;
     top:0;
@@ -385,6 +390,8 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) }
 
 .portfolio-list {
     margin-bottom: 8px;}
+
+
 
 .values-names, .team-members, .portfolio-list {color: #2E2F42;
     font-family: Roboto;
@@ -425,6 +432,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) }
 .page-end {
     background-color: #2E2F42;
     padding: 100px 0;
+    letter-spacing:0.02em;
     }
 
 
@@ -433,7 +441,8 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) }
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 0.02em;}
+    letter-spacing:0.02em;
+}
     
 .end-logo {color:#4d5ae5;
     font-family: Raleway, sans-serif;
@@ -453,7 +462,7 @@ margin-bottom: 16px;}
 
 .end-text {
     width:264px;
-    letter-spacing: 0.02em;
+    letter-spacing:0.02em;
 }
 
 .end {display:flex;
@@ -464,6 +473,7 @@ margin-right: 120px;}
 .media-list-title {
     color:#FFFFFF;
     margin-bottom:16px;
+    letter-spacing:0.02em;
 }
     
 .footer-icon:hover, .footer-icon:focus{background-color:#31d0aa;}
