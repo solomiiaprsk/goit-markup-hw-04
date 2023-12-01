@@ -67,8 +67,6 @@ box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
     gap: 40px;
     }
 
-.current {position: relative;
-    color:#404BBF; }
 
 .top-nav-list {display: flex;
     gap: 40px;
@@ -78,7 +76,10 @@ box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }  
 
-.menu.current::after {content:""; 
+.top-nav-list.current, .menu.current {position: relative;
+    color:#404BBF;}
+
+.top-nav-list.current::after, .menu.curent::after  {content:""; 
     position: absolute;
     display:block;
     left:0;
