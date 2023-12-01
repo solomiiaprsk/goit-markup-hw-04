@@ -63,10 +63,10 @@ box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
 
 .menu:first-child {color:#404bbf;}
 
-.top-nav-list:first-child .studio {color:#404bbf;}
+.top-nav-list:first-child .studio {color: #404bbf;}
 
 
-.studio {color:#404bbf;
+.studio {color: #404bbf;
     transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -125,7 +125,7 @@ text-decoration: none;}
 
 .top-nav-list:hover, 
 .top-nav-list:focus {
-    color:#404BBF;
+    color: #404BBF;
     transition-property: background-color, color, box-shadow;
     transition-duration:250ms;
     transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
@@ -310,29 +310,35 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) }
     gap:24px;
     margin-top:8px;
     
+    
 }
 
 .social-list-item {
-    width:40px;
-    height:40px;
+    width: 40px;
+    height: 40px;
     background-color:#4D5AE5;
     border-radius: 50%;
-    display: flex;
-    align-items:center;
-    justify-content: center;
     position:relative;
+    gap: 16px;
     }
 
 .social-link {
     width: 100%;
     height:100%;
     border-radius: 50%;
+    background-color: #4d5ae5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.social-link:hover, .social-link:focus {
+    background-color: #404BBF;
 }
 
 
-.social-list-item:hover {
-    background-color: #404BBF; 
-}
 
 
 .social-media-icon {
@@ -367,9 +373,8 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) }
     height:100%;
     transform:translatey(100%);
     transition:transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    padding-top:40px;
-    padding-right:32px;
-    padding-left:32px;
+    padding: 40px 32px;
+    letter-spacing: 0.02em;
     }
 
 
@@ -468,12 +473,14 @@ margin-bottom: 16px;}
 .end {display:flex;
 column-gap:120px;
 align-items: baseline;
-margin-right: 120px;}
+margin-right: 120px}
 
 .media-list-title {
     color:#FFFFFF;
     margin-bottom:16px;
     letter-spacing:0.02em;
 }
-    
+
+.footer-icon {background-color: #4d5ae5;}
+
 .footer-icon:hover, .footer-icon:focus{background-color:#31d0aa;}
