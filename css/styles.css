@@ -67,25 +67,24 @@ box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
     gap: 40px;
     }
 
-.studio {color: #404BBF; }
+.current {position: relative;
+    color:#404BBF;}
 
 .top-nav-list {display: flex;
     gap: 40px;
     padding-top:24px; 
     padding-bottom:24px;
     position:relative; 
-    color: #404bbf; 
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }  
 
-.menu:first-child ::after {content:"";
+.current::after {content:"";
     position: absolute;
     left:0;
     bottom: -1px;
     height:4px;
     width:48px;
     border-radius:2px;
-    color: #404BBF; 
     background-color: #404BBF; 
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
