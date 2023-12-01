@@ -61,13 +61,10 @@ box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
 
 .menu:not(:last-child) {margin-right: 40px;}
 
-.menu:first-child {color:#404bbf;}
+.menu:first-child {color: #404bbf; }
 
-.top-nav-list:first-child .studio {color: #404bbf;}
-
-
-.studio {color: #404bbf;
-    transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.top-nav-list:first-child .studio {color: #404bbf; 
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .navigation, .nav-contacts {display: flex;
@@ -88,7 +85,7 @@ box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
     height:4px;
     width:48px;
     border-radius:2px;
-    background-color: #404BBF;
+    background-color: #404BBF; 
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
@@ -125,7 +122,7 @@ text-decoration: none;}
 
 .top-nav-list:hover, 
 .top-nav-list:focus {
-    color: #404BBF;
+    color: #404BBF; 
     transition-property: background-color, color, box-shadow;
     transition-duration:250ms;
     transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
@@ -146,7 +143,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) }
 
 .contacts:hover, 
 .contacts:focus {
-    color: #404BBF;
+    color: #404BBF; 
     transition-property: background-color, color, box-shadow;
     transition-duration:250ms;
     transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
@@ -273,9 +270,6 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) }
     
 }
 
-.values-icon {
-    
-}
 
 .values-card {
     width: calc((100% - 72px) / 4);}
@@ -310,16 +304,14 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) }
     gap:24px;
     margin-top:8px;
     
-    
 }
 
 .social-list-item {
-    width: 40px;
-    height: 40px;
+    width: 40px; 
+    height: 40px; 
     background-color:#4D5AE5;
     border-radius: 50%;
     position:relative;
-    gap: 16px;
     }
 
 .social-link {
@@ -334,8 +326,9 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) }
 
 }
 
-.social-link:hover, .social-link:focus {
-    background-color: #404BBF;
+.social-link:hover, 
+.social-link:focus {
+    background-color: #404BBF; 
 }
 
 
@@ -471,9 +464,8 @@ margin-bottom: 16px;}
 }
 
 .end {display:flex;
-column-gap:120px;
 align-items: baseline;
-margin-right: 120px}
+}
 
 .media-list-title {
     color:#FFFFFF;
@@ -484,3 +476,6 @@ margin-right: 120px}
 .footer-icon {background-color: #4d5ae5;}
 
 .footer-icon:hover, .footer-icon:focus{background-color:#31d0aa;}
+
+.footer-left, .footer-right {margin-right: 120px;}
+.end-media {gap: 16px;}
